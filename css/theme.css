@@ -1,0 +1,86 @@
+
+html {
+color: black;
+}
+
+main {
+  background-image: linear-gradient(white, ghostwhite, lightgray, gray);
+  height: 800px;
+}
+
+p {
+  font-family: 'Tangerine', cursive;
+  font-size: 2em;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 4em;
+}
+
+/* .firstLetter {
+  font-size: 5px;
+  margin-left: 50px;
+  color: black;
+  
+} */
+
+h1 {
+  box-sizing: content-box;
+  font-family: 'Tangerine', cursive;; 
+  font-size: 5em;
+  padding-left: 50px;
+  padding-top: 10px;
+  width: max-content;
+  
+}
+
+nav {
+  font-family: 'Tangerine', cursive;
+  font-size: 2em;
+  height: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 450px;
+  width: 500px;
+}
+
+nav ul li{
+  display: inline;
+}
+
+header {
+  border-bottom: 5px solid ghostwhite;
+  content: ""; 
+  display: flex;
+  flex: 1 1;
+  flex-wrap: nowrap;
+  font-style: italic;
+  font-weight: bold;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+img {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  width: 98%;
+  height: 300px;
+}
+
+nav ul{
+  height: 10px;
+  list-style: none;
+  padding-top: 1em;
+  padding-left: 5em;
+  width: 300px;
+}
+
+a {
+  color: black; 
+}
+
+li {
+  padding-inline:.3em;
+}
